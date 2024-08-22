@@ -6,7 +6,7 @@ import java.util.Set;
 public class ForEachRemove {
     //replaces removeAll by foreach
 
-    /*public void test(){
+    public void test(){
         Set<String> set = new HashSet<>();
         set.add("a");
         set.add("b");
@@ -18,5 +18,5 @@ public class ForEachRemove {
         set.removeAll(elementsToRemove);
         System.out.println(set); // Output: [a]
 
-    }*/
+    }
 }

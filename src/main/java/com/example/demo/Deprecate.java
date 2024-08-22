@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 public class Deprecate {
     //rewrite the deprecated code by latest version
 
-    /*Boolean bool = new Boolean(true);
+    Boolean bool = new Boolean(true);
     Byte b = new Byte("1");
     Character c = new Character('c');
     Double d = new Double(1.0);
@@ -25,5 +25,5 @@ public class Deprecate {
         bd.divide(bd2, 1, BigDecimal.ROUND_CEILING);
         bd.divide(bd2, 1, 1);
         bd.setScale(2, 1);
-    }*/
+    }
 }

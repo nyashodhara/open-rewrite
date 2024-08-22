@@ -3,7 +3,7 @@ package com.example.demo;
 public class CamelCase {
     //convert variables to camel cases
 
-    /*private String first_name;
+    private String first_name;
     private int age_years;
     private boolean is_active;
 
@@ -22,5 +22,5 @@ public class CamelCase {
         if (is_valid) {
             System.out.println(user_name + " has " + num_items + " items.");
         }
-    }*/
+    }
 }

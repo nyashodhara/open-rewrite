@@ -1,9 +1,12 @@
 package com.example.demo;
 
+import java.util.List;
+import java.util.function.Consumer;
+
 public class AnonymousClass {
     //converts anonymous class to lambda expression
 
-    /*Runnable runnable = new Runnable() {
+    Runnable runnable = new Runnable() {
         @Override
         public void run() {
             System.out.println("Running");
@@ -20,5 +23,4 @@ public class AnonymousClass {
             }
         });
     }
-     */
 }
