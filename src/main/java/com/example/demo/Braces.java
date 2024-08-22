@@ -11,5 +11,12 @@ public class Braces {
 
         for (int i = 0; i < 5; i++)
             System.out.println("Index: " + i);
+
+        //removes redundant catch clause
+        try {
+            System.out.println(10/2);
+        } catch (Exception e) {
+            throw e; // This is redundant if no additional handling is done
+        }
     }
 }
