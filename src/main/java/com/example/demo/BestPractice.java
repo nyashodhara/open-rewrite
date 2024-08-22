@@ -22,7 +22,7 @@ public class BestPractice {
         //to avoid null-pointer exception
         String str = null;
         if (str.equals("value")) {
-            // Do something
+            System.out.println("Value is true");
         }
 
        //mask credit-card number
