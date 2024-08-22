@@ -63,10 +63,7 @@
 				<version>5.39.0</version>
 				<configuration>
 					<activeRecipes>
-						<!-- <recipe>org.openrewrite.java.migrate.UpgradeToJava17</recipe> -->
-						<!-- <recipe>org.openrewrite.java.RemoveUnusedImports</recipe> -->
-						<!-- <recipe>org.openrewrite:rewrite-java:latest-version</recipe> -->
-						<recipe>org.openrewrite.java.migrate.UpgradeToJava17</recipe>
+						<!--<recipe>org.openrewrite.java.migrate.UpgradeToJava17</recipe>
 						<recipe>org.openrewrite.staticanalysis.UseLambdaForFunctionalInterface</recipe>
 						<recipe>org.openrewrite.staticanalysis.ReplaceStreamToListWithCollect</recipe>
 						<recipe>org.openrewrite.staticanalysis.InstanceOfPatternMatch</recipe>
@@ -78,6 +75,7 @@
 						<recipe>org.openrewrite.staticanalysis.RenamePrivateFieldsToCamelCase</recipe>
 						<recipe>org.openrewrite.staticanalysis.CatchClauseOnlyRethrows</recipe>
 						<recipe>org.openrewrite.staticanalysis.EqualsAvoidsNull</recipe>
+						<recipe>org.openrewrite.staticanalysis.MaskCreditCardNumbers</recipe>-->
 					</activeRecipes>
 				</configuration>
 				<dependencies>
