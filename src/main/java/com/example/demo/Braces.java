@@ -18,5 +18,11 @@ public class Braces {
         } catch (Exception e) {
             throw e; // This is redundant if no additional handling is done
         }
+
+        //to avoid null-pointer exception
+        String str = null;
+        if (str.equals("value")) {
+            // Do something
+        }
     }
 }

@@ -77,6 +77,7 @@
 						<recipe>org.openrewrite.staticanalysis.RenameLocalVariablesToCamelCase</recipe>
 						<recipe>org.openrewrite.staticanalysis.RenamePrivateFieldsToCamelCase</recipe>
 						<recipe>org.openrewrite.staticanalysis.CatchClauseOnlyRethrows</recipe>
+						<recipe>org.openrewrite.staticanalysis.EqualsAvoidsNull</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>
