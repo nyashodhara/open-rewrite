@@ -77,6 +77,7 @@
 						<recipe>org.openrewrite.staticanalysis.EqualsAvoidsNull</recipe>
 						<recipe>org.openrewrite.staticanalysis.MaskCreditCardNumbers</recipe>-->
 						<recipe>org.openrewrite.staticanalysis.ReplaceLambdaWithMethodReference</recipe>
+						<recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>
