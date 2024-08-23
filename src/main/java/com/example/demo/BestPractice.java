@@ -55,4 +55,12 @@ public class BestPractice {
             System.out.println("equal");
         }
     }
+
+    //inline the result variable directly into the return statement.
+    public int inline() {
+        int baseValue = 10;
+        int result = baseValue * 5;
+
+        return result;
+    }
 }
