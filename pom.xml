@@ -80,6 +80,7 @@
 						<recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
 						<recipe>org.openrewrite.staticanalysis.ForLoopControlVariablePostfixOperators</recipe>
 						<recipe>org.openrewrite.staticanalysis.ForLoopIncrementInUpdate</recipe>
+						<recipe>org.openrewrite.staticanalysis.UseDiamondOperator</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>
