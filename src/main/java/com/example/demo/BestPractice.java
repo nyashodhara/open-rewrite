@@ -33,5 +33,14 @@ public class BestPractice {
        //mask credit-card number
         String cardNumber = "4111 1111 1111 1111";
         System.out.println("Processing payment for card: " + cardNumber);
+
+        for (int i = 0; i < 10; ++i) {
+            System.out.println(i);
+        }
+
+        for (int i = 0; i < 10; ) {
+            System.out.println(i);
+            i++;
+        }
     }
 }

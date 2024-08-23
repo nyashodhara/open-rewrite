@@ -78,6 +78,8 @@
 						<recipe>org.openrewrite.staticanalysis.MaskCreditCardNumbers</recipe>-->
 						<recipe>org.openrewrite.staticanalysis.ReplaceLambdaWithMethodReference</recipe>
 						<recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
+						<recipe>org.openrewrite.staticanalysis.ForLoopControlVariablePostfixOperators</recipe>
+						<recipe>org.openrewrite.staticanalysis.ForLoopIncrementInUpdate</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>
