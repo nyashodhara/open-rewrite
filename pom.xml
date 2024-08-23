@@ -81,6 +81,7 @@
 						<recipe>org.openrewrite.staticanalysis.ForLoopControlVariablePostfixOperators</recipe>
 						<recipe>org.openrewrite.staticanalysis.ForLoopIncrementInUpdate</recipe>
 						<recipe>org.openrewrite.staticanalysis.UseDiamondOperator</recipe>-->
+						<recipe>org.openrewrite.staticanalysis.ReferentialEqualityToObjectEquals</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>

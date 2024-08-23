@@ -34,6 +34,7 @@ public class BestPractice {
         String cardNumber = "4111 1111 1111 1111";
         System.out.println("Processing payment for card: " + cardNumber);
 
+        //post increment
         for (int i = 0; i < 10; ++i) {
             System.out.println(i);
         }
@@ -41,6 +42,13 @@ public class BestPractice {
         for (int i = 0; i < 10; ) {
             System.out.println(i);
             i++;
+        }
+
+        //equal condition
+        String a = "hello";
+        String b = "hello";
+        if (a == b) {
+            System.out.println("equal");
         }
     }
 }
